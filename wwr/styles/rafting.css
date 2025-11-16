@@ -51,7 +51,7 @@ h1 {
     color: #fff;
 }
 .hero article {
-    position: relative;
+    position: absolute;
 }
 .hero article img  {
     float: right;
