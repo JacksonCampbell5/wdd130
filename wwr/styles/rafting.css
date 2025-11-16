@@ -1,6 +1,6 @@
 :root {
     --primary-colour: #055a05;
-    --secondary-colour: #f4a261;
+    --secondary-colour: #051570;
     --accent1-colour: #264653;
     --accent2-colour: #e9c46a;
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -26,9 +26,11 @@ h1, h2 {
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
+    color: var(--secondary-colour);
 }
 .socialmedia a {
     text-decoration: none;
+    background-color: var(--accent2-colour);
 }
 .hero {
     position: relative;
@@ -47,6 +49,9 @@ h1 {
     opacity: 0.7;
     background-color: var(--accent1-colour);
     color: #fff;
+}
+.hero article {
+    position: relative;
 }
 .hero article img  {
     float: right;
