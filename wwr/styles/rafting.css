@@ -7,7 +7,7 @@
     --body-font: Arial, Helvetica, Sans-serif;
 }
 * {
-    margin: 0;
+
     padding: 0;
     box-sizing: border-box;
 }
@@ -19,6 +19,15 @@ header, main, footer {
     width: 840px;
     margin: 0 auto;
 }
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.navigation {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-colour);
@@ -27,6 +36,7 @@ nav, p, section, article {
     margin: 16px;
     padding: 8px;
     color: var(--secondary-colour);
+    align-content: center;
 }
 .socialmedia a {
     text-decoration: none;
@@ -42,7 +52,7 @@ nav, p, section, article {
 }
 h1 {
     position: absolute;
-    top: 20px;
+    top: 0px;
     width: 100%;
     padding: 16px;
     text-align: center;
@@ -52,6 +62,7 @@ h1 {
 }
 .hero article {
     position: absolute;
+    top: 67px;
 }
 .hero article img  {
     float: right;
