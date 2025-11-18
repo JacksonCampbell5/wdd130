@@ -7,6 +7,7 @@
     --body-font: Arial, Helvetica, Sans-serif;
 }
 * {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -50,6 +51,7 @@ nav, p, section, article {
     display: block;
     width: 100%;
     height: auto;
+    background-color: var(--accent2-colour);
 }
 h1 {
     position: absolute;
