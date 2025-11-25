@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    justify-self: center;
+    counter-reset: section;
+}
+h1 {
+    color: rgb(4, 4, 126);
+}
+form {
+    background-color: rgb(226, 223, 223);
+}
+.quiz-item {
+    display: grid;
+    padding: 15px;
+}
+p {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    width: 75%;
+    justify-self: center;
+    margin: 10px;
+}
+input[type="text"]{
+    height: 30px;
+}
+button {
+    width: 93%;
+    margin: 10px;
+    justify-self: center;
+    color: #fff;
+    background-color: rgb(15, 15, 161);
+    height: 50px;
+}
