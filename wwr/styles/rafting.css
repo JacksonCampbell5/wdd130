@@ -63,7 +63,7 @@ nav, p, section, article {
     height: auto;
     background-color: var(--accent2-colour);
 }
-h1 {
+h1.about-us {
     position: absolute;
     top: 0px;
     width: 100%;
@@ -108,7 +108,7 @@ h1 {
 figcaption {
     text-align: center;
 }
-.info p, h2 {
+.info p, h2, h1 {
     margin: 0px;
     justify-self: center;
     padding: 5px;
