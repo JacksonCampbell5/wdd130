@@ -12,6 +12,19 @@
     box-sizing: border-box;
 
 }
+nav {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+nav a {
+  display: block;
+  padding: 0.5rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
 body {
     font-family: var(--body-font);
     color: var(--accent1-colour);
@@ -125,6 +138,9 @@ iframe, form {
 .contact {
     display: flex;
 }
+.contact img {
+    width: 200px;
+}
 form {
     display: block;
     padding: 10px;
@@ -151,3 +167,23 @@ button {
     width: 100%;
     height: 30px;
 }
+.index-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.index-grid img {
+    width: 75%;
+}
+table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width: 100%;
+}
+td , th , tr {
+    border: 1px solid #000;
+    margin: 0;
+    padding: 10px;
+} 
