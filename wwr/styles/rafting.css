@@ -78,8 +78,8 @@ nav, p, section, article {
 }
 h1.about-us {
     position: absolute;
-    top: 0px;
-    width: 100%;
+    top: -83px;
+    width: 104%;
     padding: 16px;
     text-align: center;
     opacity: 0.7;
